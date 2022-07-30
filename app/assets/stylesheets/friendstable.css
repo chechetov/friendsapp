@@ -1,0 +1,9 @@
+#friendstable td{
+	border: 2px solid;
+	 border-collapse: collapse;
+}
+
+#friendstable th{
+	border: 2px solid;
+	 border-collapse: collapse;
+}

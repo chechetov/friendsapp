@@ -1,0 +1,11 @@
+/* 
+nav-link white
+*/
+
+.navbar-light .navbar-nav .nav-link {
+	color: #FFFFFF;
+}
+
+.navbar-light .navbar-brand {
+	color: #FFFFFF;
+}
