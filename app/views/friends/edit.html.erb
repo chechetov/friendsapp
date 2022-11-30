@@ -1,9 +1,12 @@
-<h2>Editing friend</h2>
-<br/>
-
-<%= render "form", friend: @friend %>
-
-<div>
-  <%= link_to "Show this friend", @friend, class:"btn btn-outline-secondary" %>
-  <%= link_to "Back to friends", friends_path, class:"btn btn-outline-secondary" %>
+<div class="card">
+  <div class="card-header">
+    <h2>Editing friend</h2>
+  </div>
+  <div class="card-body">
+    <%= render "form", friend: @friend %>
+    <div class="actions">
+      <%= link_to "Back", friends_path, class:"btn btn-outline-secondary" %>
+      <%= link_to "Show", @friend, class:"btn btn-outline-secondary" %>
+      <%= link_to "Delete", @friend, class:"btn btn-danger", data: { turbo_method: :delete, turbo_confirm: 'Are you sure?' } %>
+  </div>
 </div>

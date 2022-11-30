@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @myVar = "Hello there!!!"
+    @myVar = "my var in home_controller.rb"
   end
 
   def home
@@ -8,6 +8,6 @@ class HomeController < ApplicationController
   end
 
   def about
-    
+    @about_var = "This is variable in about() of home_controller.rb"
   end
 end
